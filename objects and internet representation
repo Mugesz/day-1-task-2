@@ -1,0 +1,10 @@
+In JavaScript, objects are collections of key-value pairs, where keys are strings (or Symbols) and values can be of any data type,including other objects.
+This versatile data structure allows developers to represent complex real-world entities and relationships in their code.
+
+Internal Representation of Objects;
+
+To understand how JavaScript internally represents objects, it's crucial to grasp the concept of property descriptors and the difference between "own" and "prototype" properties.
+
+Property Descriptors: Each property in a JavaScript object is associated with a property descriptor, which contains metadata about the property. This metadata includes information about the property's configurability, writability, and whether it is enumerable. The descriptor also holds the value of the property.
+
+Own vs. Prototype Properties: Objects in JavaScript have both "own" properties and "prototype" properties. "Own" properties are those directly defined on the object itself, while "prototype" properties are inherited from the object's prototype chain. The prototype chain is essentially a link to another object, allowing properties and methods to be shared among objects.
